@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: probed
+source: live probes of https://pontera.com/.well-known/*
+host: https://pontera.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+note: No .well-known discovery documents are published. Pontera exposes no public
+  developer API surface; account access is client-permissioned via a proprietary
+  workflow.

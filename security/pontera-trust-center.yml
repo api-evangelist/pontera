@@ -1,0 +1,34 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://security.pontera.com/
+url: https://security.pontera.com/
+platform: SafeBase (by Drata)
+certifications:
+- SOC 2
+- SOC 2 Type 2
+- ISO 27001
+- ISO 27017
+- ISO 27018
+- CSA STAR Level 1
+- PCI DSS
+reports:
+- SOC 2 Type II Report
+- Security Whitepaper
+- Pentest Report
+- PCI DSS assessment
+- CAIQ self-assessment
+- SIG Lite self-assessment
+frameworks:
+- CCPA
+- CPRA
+- CISA Secure by Design Pledge
+- NIST Cybersecurity Framework
+evidence:
+- source: https://security.pontera.com/
+  keywords:
+  - soc 2
+  - iso/iec 27001
+  - trust center
+  - csa star
+  - safebase

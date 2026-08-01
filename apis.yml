@@ -1,8 +1,26 @@
 aid: pontera
 name: Pontera
-description: 'Pontera is a company surfaced as a portfolio company of iconiq-capital, lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Pontera (formerly FeeX; legal entity Pontera Solutions Inc.) is a wealthtech
+  platform that lets financial advisors securely manage, rebalance, and report on
+  clients'' held-away workplace-sponsored retirement accounts — 401(k), 401(a), 403(b),
+  457, TSP, and certain 529 plans — without a rollover. Accounts connect through a
+  client-permissioned, credential-free workflow designed to avoid triggering custody
+  under SEC Rule 206(4)-2, with an un-editable audit log for supervision. Pontera integrates
+  with portfolio-management, reporting, billing, and supervision systems (Orion, Addepar,
+  Black Diamond, Morningstar and others) but publishes no public developer API. Backed
+  by ICONIQ Capital and Lightspeed Venture Partners.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/alnXDx1vyv9KGoFm8YjGhdmuTQ.jpg
 url: https://raw.githubusercontent.com/api-evangelist/pontera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- WealthTech
+- Retirement
+- 401k
+- Financial Advisors
+- Retirement Planning
+- Security
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,32 @@ maintainers:
 common:
 - type: Website
   url: https://pontera.com/
+- type: Login
+  url: https://advisor.pontera.com/
+- type: Support
+  url: https://www.pontera.com/contact
+- type: Blog
+  url: https://www.pontera.com/resources
+- type: Integrations
+  url: https://www.pontera.com/product/integrations
+- type: TermsOfService
+  url: https://www.pontera.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.pontera.com/privacy-policy
+- type: TrustCenter
+  url: security/pontera-trust-center.yml
+- type: Compliance
+  url: https://security.pontera.com/
+- type: Security
+  url: https://www.pontera.com/product/security/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: security/pontera-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/pontera-domain-security.yml
+- type: LLMsTxt
+  url: llms/pontera-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
