@@ -9,6 +9,17 @@ description: 'Pontera (formerly FeeX; legal entity Pontera Solutions Inc.) is a 
   with portfolio-management, reporting, billing, and supervision systems (Orion, Addepar,
   Black Diamond, Morningstar and others) but publishes no public developer API. Backed
   by ICONIQ Capital and Lightspeed Venture Partners.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
